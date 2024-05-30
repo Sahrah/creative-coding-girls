@@ -66,7 +66,7 @@
   /* Buttons */
   --button-border-width: var(--border-width);
   --button-border-color: var(--color-cg-pink);
-  --button-text-color: var(--color-cg-pink);
+  --button-text-color: var(--color-lightest);
   --button-bg-color: var(--color-darkest);
   --button-bg-hover-color: var(--color-lighten-strong);
 
@@ -77,4 +77,5 @@
   --radius-m: 3px;
   --text-gradient: linear-gradient(90deg,var(--color-cg-pink) , var(--color-cg-gruen));
   --text-gradient-reversed: linear-gradient(270deg,var(--color-cg-pink) , var(--color-cg-gruen));
+  --box-shadow: 0 0 1em #000;
 }

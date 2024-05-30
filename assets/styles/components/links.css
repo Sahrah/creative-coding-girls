@@ -23,8 +23,8 @@
 
     &:hover{
       border-color: var(--color-cg-gruen);
-      color: var(--color-cg-gruen);
-      transform: scale(1.2);
+      box-shadow: var(--box-shadow);
+      transform: scale(1.2) rotate(5deg);
 
       a{
         text-decoration: none;

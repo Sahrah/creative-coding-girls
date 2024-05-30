@@ -21,6 +21,8 @@
   h1{
     margin-bottom: 0;
     margin-left: -0.05em;
+    -webkit-text-stroke-color: var(--color-lighten-strong);
+    -webkit-text-stroke-width: 1px;
   }
 
   h2{
@@ -29,5 +31,9 @@
     font-family: var(--ff-primary);
     font-size: var(--size-l);
     font-weight: var(--fw-medium);
+  }
+
+  p{
+    max-width: var(--max-content-width);
   }
 }
