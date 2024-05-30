@@ -71,7 +71,7 @@ const stripLayoutData = (data) => {
   const randomDelays = getRandomNumbers({
     "amount": 2,
     "min": 0,
-    "max": 2,
+    "max": 1,
     "type": "float"
   });
 
@@ -108,9 +108,10 @@ const homeLayout = (data) => {
 
 const pageLayout = (data) => {
 
-  const { id, title, subtitle, image } = data;
+  const { id, title, subtitle, image, text } = data;
   const { linksHtml, colorClass, additonalClasses, randomDelays } = stripLayoutData(data);
 
+  const textHtml = text ? `<p style="transition-delay:${randomDelays[1]}s">${text}</p>` : '';
   const imageHtml = !image
     ? ''
     : `
@@ -121,8 +122,11 @@ const pageLayout = (data) => {
   return `
     <section class="page ${colorClass} ${additonalClasses} snap-in" data-js-observe id="${id}">
       <div class="text-wrap">
-        <h2 style="transition-delay:${randomDelays[0]}s">${title}</h2>
-        <p style="transition-delay:${randomDelays[0]}s">${subtitle}</p>
+        <header>
+          <h2 class="title gradient-text" style="transition-delay:${randomDelays[0]}s">${title}</h2>
+          <h3 class="subtitle" style="transition-delay:${randomDelays[0]}s">${subtitle}</h3>
+        </header>
+        ${textHtml}
         ${linksHtml}
       </div>
       ${imageHtml}

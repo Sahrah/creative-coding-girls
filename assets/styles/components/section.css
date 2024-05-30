@@ -4,17 +4,20 @@
 section {
   position: relative;
   display: flex;
-  overflow: hidden;
+
+  /* overflow: hidden; */
   height: 100vh;
   flex-direction: column;
   justify-content: center;
   padding: var(--size-l);
-  background: linear-gradient(180deg, var(--color-darkest), var(--color-dark));
+  background-color: var(--color-darkest);
+
+  /* background: linear-gradient(180deg, var(--color-darkest), var(--color-dark)); */
 
   --border-color: var(--color-darkest);
 
   &.snap-in{
-    scroll-snap-align: start;
+    /* scroll-snap-align: start; */
   }
 
   &.mi-blau, &.mi-pink, &.mi-gruen, &.mi-lila, &.mi-black, &.mi-grau{

@@ -2,13 +2,28 @@
 ############################################################################ */
 
 .gradient-text {
-  background: linear-gradient(90deg,var(--color-cg-pink) , var(--color-cg-gruen));
+  background: var(--text-gradient);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gradient-text-reversed {
-  background: linear-gradient(270deg, var(--color-cg-pink), var(--color-cg-gruen));
+  background: var(--text-gradient-reversed);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* Title & Subtitle
+############################################################################ */
+
+.title{
+  margin-bottom: 0;
+}
+
+.subtitle{
+  padding-top: 0;
+  margin-top: -0.5em;
+  font-family: var(--ff-primary);
+  font-size: var(--size-l);
+  font-weight: var(--fw-medium);
 }

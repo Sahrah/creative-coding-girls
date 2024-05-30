@@ -21,17 +21,12 @@
     },
     {
       "id": "workshops",
-      "title": "Workshop",
+      "title": "Workshops",
       "subtitle": "Kreativ programmieren lernen",
       "text": "Mädchen und Frauen brauchen weibliche Vorbilder, um ihr Interesse an Technik und Informatik zu wecken. Sie trauen sich in homogenen Gruppen eher, Fragen zu stellen und sich auszuprobieren. Aus diesem Grund biete ich Workshops an, die als Safe Space fungieren und speziell auf Mädchen und Frauen zugeschnitten sind. Creative Coding bietet die Möglichkeit, schnell visuelle und individuelle Ergebnisse zu erzielen. Diese kreative Herangehensweise macht nicht nur Spaß, sondern weckt auch die Neugierde, mehr zu lernen.",
-      "layout": "image-stripe",
-      "images": [
-        "./images/Hybride-Lehre_Kohls_DSC2852.jpg",
-        "./images/DSC6076.jpg",
-        "./images/8N1B3676.jpg",
-        "./images/DSC08493.jpg",
-        "./images/moxd-lab-projektarbeit_DSC0926.jpg"
-      ]
+      "layout": "page",
+      "cssClasses": "has-grid is-layout-3",
+      "image": "./images/coding-girls-setup.webp"
     },
     {
       "id": "workshop1",
@@ -44,14 +39,9 @@
           "text": "Jetzt Kontakt aufnehmen",
           "url": "#booking"
         }],
-      "layout": "image-stripe",
-      "images": [
-        "./images/Hybride-Lehre_Kohls_DSC2852.jpg",
-        "./images/DSC6076.jpg",
-        "./images/8N1B3676.jpg",
-        "./images/DSC08493.jpg",
-        "./images/moxd-lab-projektarbeit_DSC0926.jpg"
-      ]
+      "layout": "page",
+      "cssClasses": "has-grid is-layout-1",
+      "image": "./images/20221022-ITERATION-11.webp"
     },
     {
       "id": "workshop2",
@@ -64,14 +54,9 @@
           "text": "Jetzt Kontakt aufnehmen",
           "url": "#booking"
         }],
-      "layout": "image-stripe",
-      "images": [
-        "./images/Hybride-Lehre_Kohls_DSC2852.jpg",
-        "./images/DSC6076.jpg",
-        "./images/8N1B3676.jpg",
-        "./images/DSC08493.jpg",
-        "./images/moxd-lab-projektarbeit_DSC0926.jpg"
-      ]
+      "layout": "page",
+      "cssClasses": "has-grid is-layout-2",
+      "image": "./images/20221022-ITERATION-12.webp"
     },
     {
       "id": "workshop3",
@@ -84,14 +69,9 @@
           "text": "Jetzt Kontakt aufnehmen",
           "url": "#booking"
         }],
-      "layout": "image-stripe",
-      "images": [
-        "./images/Hybride-Lehre_Kohls_DSC2852.jpg",
-        "./images/DSC6076.jpg",
-        "./images/8N1B3676.jpg",
-        "./images/DSC08493.jpg",
-        "./images/moxd-lab-projektarbeit_DSC0926.jpg"
-      ]
+      "layout": "page",
+      "cssClasses": "has-grid is-layout-3",
+      "image": "./images/tech-f.webp"
     },
     {
       "id": "contact",
@@ -102,9 +82,8 @@
       
       "text": "Haben Sie Fragen zu unseren Workshops oder möchten Sie einen Workshop buchen? Dann schreiben Sie uns eine E-Mail oder rufen Sie uns an. Wir freuen uns auf Ihre Nachricht!",
     
-      "image": "./images/usability-testing.jpg",
       "layout": "page",
-      "cssClasses": "has-grid is-layout-2 mi-lila"
+      "cssClasses": "has-grid is-layout-text"
     },
     {
       "id": "quote-1",
