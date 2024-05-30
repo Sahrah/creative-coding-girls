@@ -25,9 +25,9 @@
   .text-wrap{
     z-index: var(--level-fg);
     display: flex;
-  flex-direction: column;
-  justify-content: center;
-    padding: var(--size-l) var(--size-l);
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--size-xl) var(--size-l) var(--size-xxl);
     border-top: solid var(--border-width) transparent;
     background-color: var(--color-darken-strong);
   }
