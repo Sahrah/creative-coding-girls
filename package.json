@@ -10,7 +10,8 @@
     "copy:fonts": "recursive-copy -w assets/fonts compiled-assets/fonts",
     "build:css": "lightningcss --minify --bundle --sourcemap --targets '>= 0.25%' assets/styles/main.css -o compiled-assets/styles/main.css",
     "watch:css": "onchange 'assets/styles/**/*.css' -- npm run build:css",
-    "dev": "npm-run-all --parallel server lint build:css copy:fonts watch:css"
+    "dev": "npm-run-all --parallel server lint build:css copy:fonts watch:css",
+    "build": "npm-run-all --parallel build:css copy:fonts"
   },
   "repository": {
     "type": "git",
