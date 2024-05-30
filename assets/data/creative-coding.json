@@ -3,10 +3,10 @@
     {
       "id": "home",
       "title": "Creative Coding Girls",
-      "background": "auto",
+      "background": "video",
       "subtitle": "Workshops für Mädchen und Frauen",
       "teaser": "In den Creative Coding Girls Workshops entdecken Mädchen und Frauen auf kreative Weise die Welt des Programmierens. Egal ob Anfängerinnen oder Fortgeschrittene – die Workshops wecken Neugierde und kombinieren Kunst mit Informatik: Creativity meets Coding.",
-      "video": "./images/coding-girls.mp4",
+      "video": "./media/coding-girls-s.webm",
       "links": [
         {
           "text": "Mehr erfahren",

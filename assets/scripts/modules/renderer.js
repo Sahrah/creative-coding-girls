@@ -86,13 +86,21 @@ const stripLayoutData = (data) => {
 
 const homeLayout = (data) => {
 
-  const { id, title, subtitle } = data;
+  const { id, title, subtitle, teaser, video, background } = data;
   const { linksHtml, colorClass, additonalClasses, randomDelays } = stripLayoutData(data);
 
+  const backgroundVideo = background === 'video' ? 'class="fs-video"' : '';
+  const videoHtml = video ? `<video ${backgroundVideo} src="${video}" autoplay loop muted playsinline></video>` : '';
+  const teaserText = teaser ? `<p class="teaser" style="transition-delay:${randomDelays[1]}s">${teaser}</p>` : '';
+
   return `
-    <section class="home ${colorClass} ${additonalClasses} snap-in" data-js-observe id="${id}">
-      <h1 style="transition-delay:${randomDelays[0]}s">${title}</h1>
-      <p style="transition-delay:${randomDelays[1]}s">${subtitle}</p>
+    <section class="home ${additonalClasses} snap-in" data-js-observe id="${id}">
+      <header>
+        <h1 class="title gradient-text" style="transition-delay:${randomDelays[0]}s">${title}</h1>
+        <h2 class="subtitle gradient-text-reversed" style="transition-delay:${randomDelays[1]}s">${subtitle}</h2>
+      </header>
+      ${videoHtml}
+      ${teaserText}
       ${linksHtml}
     </section>
   `;

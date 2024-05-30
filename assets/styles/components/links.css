@@ -8,11 +8,12 @@
   
   li{
     display: inline-block;
-    padding: var(--size-quarter) var(--size-s);
+    padding: var(--size-quarter) var(--size-s) calc(var(--size-quarter) * 1.4);
     border: solid var(--button-border-width) var(--button-border-color);
+    border-radius: var(--radius-m);
     background-color: var(--button-bg-color);
     color: var(--button-text-color);
-    line-height: 0;
+    line-height: 100%;
     transition: all var(--tr-fast);
 
     *{
@@ -21,8 +22,13 @@
     }
 
     &:hover{
-      background-color: var(--button-bg-hover-color);
-      transform: skew(-15deg);
+      border-color: var(--color-cg-gruen);
+      color: var(--color-cg-gruen);
+      transform: scale(1.2);
+
+      a{
+        text-decoration: none;
+      }
     }
   }
 
