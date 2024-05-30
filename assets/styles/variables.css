@@ -20,8 +20,8 @@
   --color-lighten-strong: hsl(0deg 0% 100%/ 80%);
 
   /* Fonts */
-  --ff-headlines: roboto-slab, arial, helvetica, sans-serif;
-  --ff-primary: ibm-plex, arial, helvetica, sans-serif;
+  --ff-headlines: poppins, arial, helvetica, sans-serif;
+  --ff-primary: poppins, arial, helvetica, sans-serif;
   --ff-icons: material-icons;
 
   /* Font weights */
