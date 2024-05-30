@@ -19,21 +19,20 @@
   }
 
   h1{
+    padding-bottom: 0.3em;
     margin-bottom: 0;
     margin-left: -0.05em;
-    -webkit-text-stroke-color: var(--color-lighten-strong);
-    -webkit-text-stroke-width: 1px;
+    line-height: 110%;
   }
 
   h2{
     padding-top: 0;
-    margin-top: -0.5em;
     font-family: var(--ff-primary);
     font-size: var(--size-l);
     font-weight: var(--fw-medium);
   }
 
   p{
-    max-width: var(--max-content-width);
+    max-width: var(--max-text-width) !important;
   }
 }
