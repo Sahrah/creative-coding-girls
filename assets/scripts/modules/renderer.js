@@ -22,7 +22,8 @@ const getRandomNumbers = (options) => {
       ? Math.floor(Math.random() * (max - min + 1)) + min
       : Math.random() * (max - min) + min;
 
-    numbers.push(randomNumber);
+    const cleandNumber = Math.floor(randomNumber * 100) / 100;
+    numbers.push(cleandNumber);
   }
 
   return numbers;

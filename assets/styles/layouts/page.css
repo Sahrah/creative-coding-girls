@@ -39,7 +39,7 @@
 
   @media screen and (width >= 768px){
     *{
-      filter: blur(10em);
+      filter: blur(50px);
       transition: all var(--tr-normal) var(--tr-fast) ease-in-out;
     }
   
@@ -58,7 +58,7 @@
     }
   
     .text-wrap{
-      opacity: 0
+      opacity: 1
     }
   }
 
