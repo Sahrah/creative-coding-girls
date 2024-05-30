@@ -8,7 +8,7 @@ import { addObserver } from "./modules/observer.js";
 ############################################################################ */
 const config = {
   "content": {
-    "base": "./assets/data/mi-base.json"
+    "base": "./assets/data/creative-coding.json"
   }
 };
 

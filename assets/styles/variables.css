@@ -9,6 +9,8 @@
   --color-mi-lila: #9313ce;
   --color-mi-black: #231f20;
   --color-mi-grau: #aaa;
+  --color-cg-pink: rgb(240 15 210);
+  --color-cg-gruen: rgb(5 210 138);
   --color-mi-hellgrau: #efefef;
   --color-light: hsl(0deg 0% 80%);
   --color-lighter: hsl(0deg 0% 90%);
@@ -21,7 +23,7 @@
 
   /* Fonts */
   --ff-headlines: poppins, arial, helvetica, sans-serif;
-  --ff-primary: poppins, arial, helvetica, sans-serif;
+  --ff-primary: barlow, arial, helvetica, sans-serif;
   --ff-icons: material-icons;
 
   /* Font weights */
@@ -60,13 +62,14 @@
 
   /* Buttons */
   --button-border-width: var(--border-width);
-  --button-border-color: var(--color-darkest);
-  --button-text-color: var(--color-darkest);
-  --button-bg-color: var(--color-lighten);
+  --button-border-color: var(--color-cg-pink);
+  --button-text-color: var(--color-cg-pink);
+  --button-bg-color: var(--color-darkest);
   --button-bg-hover-color: var(--color-lighten-strong);
 
   /* Misc */
-  --border-width: clamp(2px, 0.3vw, 5px);
+  --border-width: 2px;
   --level-bg: 0;
   --level-fg: 10;
+  --radius-m: 3px;
 }

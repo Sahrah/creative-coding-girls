@@ -3,10 +3,10 @@
     {
       "id": "home",
       "title": "Creative Coding Girls",
-      "background": "auto",
+      "background": "video",
       "subtitle": "Workshops für Mädchen und Frauen",
       "teaser": "Creativity meets Coding - Programmieren lernen und dabei Spaß haben",
-      "video": "./images/coding-girls.mp4",
+      "video": "./media/coding-girls-s.webm",
       "links": [
         {
           "text": "Mehr erfahren",

@@ -4,6 +4,7 @@
 
 html, body{
   background-color: var(--color-darkest);
+  color: var(--color-lightest);
   font-family: var(--ff-primary);
   font-size: var(--size-m);
   font-weight: var(--fw-normal);

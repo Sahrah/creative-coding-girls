@@ -1,0 +1,14 @@
+/* Gradient Headline
+############################################################################ */
+
+.gradient-text {
+  background: linear-gradient(90deg,var(--color-cg-pink) , var(--color-cg-gruen));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-reversed {
+  background: linear-gradient(270deg, var(--color-cg-pink), var(--color-cg-gruen));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
