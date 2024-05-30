@@ -5,7 +5,7 @@
       "title": "Creative Coding Girls",
       "background": "auto",
       "subtitle": "Workshops für Mädchen und Frauen",
-      "teaser": "Creativity meets Coding - Programmieren lernen und dabei Spaß haben",
+      "teaser": "In den Creative Coding Girls Workshops entdecken Mädchen und Frauen auf kreative Weise die Welt des Programmierens. Egal ob Anfängerinnen oder Fortgeschrittene – die Workshops wecken Neugierde und kombinieren Kunst mit Informatik: Creativity meets Coding.",
       "video": "./images/coding-girls.mp4",
       "links": [
         {
@@ -23,7 +23,8 @@
       "id": "workshops",
       "title": "Workshop",
       "subtitle": "Kreativ programmieren lernen",
-      "text": "Mädchen und Frauen brauchen weibliche Vorbilder, um ihr Interesse an Technik und Informatik zu wecken. Sie trauen sich in homogenen Gruppen eher, Fragen zu stellen und sich auszuprobieren. Aus diesem Grund biete ich Workshops an, die als Safe Space fungieren und speziell auf Mädchen und Frauen zugeschnitten sind. Creative Coding bietet die Möglichkeit, schnell visuelle und individuelle Ergebnisse zu erzielen. Diese kreative Herangehensweise macht nicht nur Spaß, sondern weckt auch die Neugierde, mehr zu lernen.",
+      "text": "Mädchen und Frauen brauchen weibliche Vorbilder in Technik und Inforamtik. Zudem trauen sie sich in einer rein weiblichen Gruppen eher, Fragen zu stellen und sich auszuprobieren. Aus diesem Grund biete ich Workshops an, die als Safe Space fungieren und speziell auf Mädchen und Frauen zugeschnitten sind. ",
+      "technologie": "P5.JS",
       "layout": "image-stripe",
       "images": [
         "./images/Hybride-Lehre_Kohls_DSC2852.jpg",
@@ -38,7 +39,8 @@
       "title": "Beginner Workshop",
       "subtitle": "Der Workshop für Einsteigerinnen",
       "text": "Der Beginner Workshop richtet sich an Mädchen und Frauen, die noch keine Erfahrung im Programmieren haben. In einer einfachen Programmiersprachen lernen sie die Grundlagen des Programmierens kennen und erschaffen eigene abstrakte und interaktive Kunstwerke, die als Bilder abgespeichert und mit nach Hause genommen werden können. Vorkenntnisse sind nicht erforderlich.",
-      "preis": "Der Preis richtet sich nach der Anzahl der Teilnehmerinnen und der Dauer des Workshops.",
+      "alter": "ab 14 Jahren",
+      "preis": "Der Preis richtet sich nach der Anzahl der Teilnehmerinnen und der Dauer des Workshops. In einem persönlichen Gespräch erstelle ich Ihnen gerne ein individuelles Angebot.",
       "links":[
         {
           "text": "Jetzt Kontakt aufnehmen",
@@ -58,7 +60,8 @@
       "title": "Advanced Workshop",
       "subtitle": "Der Workshop für Fortgeschrittene",
       "text": "Der Advanced Workshop richtet sich an Mädchen und Frauen, die bereits erste Erfahrungen mit dem Programmieren mit P5.JS gemacht haben. In diesem Workshop werden die Grundlagen vertieft und komplexere Konzepte wie Schleifen, Funktionen und Arrays erlernt. Die Teilnehmerinnen erschaffen eigene interaktive Kunstwerke, die ins Web exportiert und mit Freunden geteilt werden können.",
-      "preis": "Der Preis richtet sich nach der Anzahl der Teilnehmerinnen und der Dauer des Workshops.",
+      "alter": "ab 14 Jahren",
+      "preis": "Der Preis richtet sich nach der Anzahl der Teilnehmerinnen und der Dauer des Workshops. In einem persönlichen Gespräch erstelle ich Ihnen gerne ein individuelles Angebot.",
       "links":[
         {
           "text": "Jetzt Kontakt aufnehmen",
@@ -98,10 +101,9 @@
       "title": "Kontakt",
       "subtitle": "Jetzt Kontakt aufnehmen",
       "name:": "Sahrah El ghammaz",
-      "email": "",
-      
-      "text": "Haben Sie Fragen zu unseren Workshops oder möchten Sie einen Workshop buchen? Dann schreiben Sie uns eine E-Mail oder rufen Sie uns an. Wir freuen uns auf Ihre Nachricht!",
-    
+      "email": "hallo@coding-girls.de",
+      "about": "Hi, ich bin Sahrah. Ich bin Medieninformatikerin, angehende Medienpädagogin und Dozentin für Algorithmen und Programmierung. Ich liebe Kunst, Natur und Technik und möchte meine Begeisterung für das Programmieren an Mädchen und Frauen weitergeben. In meinen Workshops kombiniere ich Kunst mit Informatik und zeige, wie kreativ und vielfältig das Programmieren sein kann.",
+      "text": "Sie haben Interesse an einem der Workshops? Kontaktieren Sie mich per E-Mail, in einem persönlichen Gespräch erstelle ich Ihnen gerne ein individuelles Angebot.",
       "image": "./images/usability-testing.jpg",
       "layout": "page",
       "cssClasses": "has-grid is-layout-2 mi-lila"
@@ -109,18 +111,14 @@
     {
       "id": "quote-1",
       "layout": "quote",
-      "quote": "Text",
-      "author": "Anna (Bachelor)",
-      "date": "13.11.2023",
+      "quote": "sehr viel Geduld beim Erklären, verständliche Übungen, schöner Einblick in das Thema",
       "image": "./images/bg-stripes.svg"
     }
     ,
     {
       "id": "quote-2",
       "layout": "quote",
-      "quote": "Ich bin von einer anderen Hochschule gekommen und muss sagen, dass die Dozenten hier wesentlich \"familiärer\" sind, zudem liegt diesen der Erfolg der Studenten am Herzen. Die Inhalte werden gut kommuniziert - kommt aber manchmal schon auf den Dozenten an. Der Campus und die Ausstattung ist relativ neu. Es gibt viele coole Räume 😎.",
-      "author": "Juli (Master)",
-      "date": "14.03.2024",
+      "quote": "Ich habe mich sehr wohlgefühlt, vor allem auch Fragen zu stellen.",
       "image": "./images/moxd-lab-projektarbeit_DSC1122.jpg"
     }
   ]
